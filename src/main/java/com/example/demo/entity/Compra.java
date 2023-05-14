@@ -22,7 +22,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "compra")
+@Table(name = "\"compra\"")
 @Setter
 @Getter
 public class Compra implements Serializable {

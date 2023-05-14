@@ -21,7 +21,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "tipoEvento")
+@Table(name = "\"tipoEvento\"")
 @Setter
 @Getter
 public class TipoEvento implements Serializable {
