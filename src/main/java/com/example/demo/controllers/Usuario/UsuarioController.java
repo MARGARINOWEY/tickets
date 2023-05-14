@@ -29,7 +29,7 @@ public class UsuarioController {
     @RequestMapping(value = "/loginR", method = RequestMethod.GET) // Pagina principal
 	public String LoginM() {
 		
-		return "login/login";
+		return "login/Login";
 	}
 
     @RequestMapping(value = "/loginF", method = RequestMethod.POST)
